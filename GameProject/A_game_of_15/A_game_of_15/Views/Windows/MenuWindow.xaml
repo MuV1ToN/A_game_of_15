@@ -1,0 +1,14 @@
+﻿<Window x:Class="A_game_of_15.Views.Windows.MenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:A_game_of_15.Views.Windows"
+        mc:Ignorable="d"
+    Title="Пятнашки" Height="420" Width="400" WindowStartupLocation="CenterScreen" Background="#9ACD32">
+    <Grid>
+        <Button Content="PLAY" HorizontalAlignment="Center" Margin="0,187,0,0" VerticalAlignment="Top" Height="67" Width="340" Click="Play_Click" FontFamily="Segoe UI Black" FontSize="48" Background="#FFA98F34" Foreground="White" BorderBrush="White" />
+        <Button Content="EXIT" HorizontalAlignment="Center" Margin="0,293,0,0" VerticalAlignment="Top" Width="340" Height="63" Click="Exit_Click" FontFamily="Segoe UI Black" FontSize="48"/>
+
+    </Grid>
+</Window>
